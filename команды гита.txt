@@ -1,0 +1,6 @@
+git init //инициализация, ввести и выполнить
+git add . //перенос рабчей папки в куда-то
+git commit -m "проект с завяками" //перенос из временной области в локальный репозиторий
+git branch -M main //переименование главной ветки
+git remote add origin https://github.com/mornangann/Technoservice.git //ссылка на удаленный репозиторий
+git push -u origin main //отправление на удаленный репозиторий
