@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a000afe85baa46c9b52301885f5f06af" Name="Diagram1">
+        <EntityTypeShape EntityType="NSRequests.Defect" Width="1.5" PointX="0.5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Device" Width="1.5" PointX="0.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Priory" Width="1.5" PointX="0.5" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Request" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Role" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Stage" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.Status" Width="1.5" PointX="7.625" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSRequests.User" Width="1.5" PointX="3.125" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="NSRequests.FK_Request_Defect" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_Priory" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_Stage" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_User" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_Request_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="NSRequests.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
